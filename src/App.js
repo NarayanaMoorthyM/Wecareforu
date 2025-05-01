@@ -28,7 +28,7 @@ function AppContent() {
   const location = useLocation(); // Get the current location/pathname
 
   // Check if the current location is one of the pages where you want to display the footer
-  const showFooter = location.pathname === '/' || location.pathname === '/about' || location.pathname === '/contact';
+  const showFooter = location.pathname === '/about' || location.pathname === '/contact';
 
   const themeStyles = {
     backgroundColor: themeContext.theme === 'light' ? '#ffffff' : '	#d59090', // Dark background for light theme
